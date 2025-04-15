@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.appname.databinding.ActivityMainBinding
 //ㅑㅐㅕㅑㅛㅕ쇿ㄷㄱㅈ
 //ㄴㄴㄴ
+//ㄹㄹㄹ
 class MainActivity : AppCompatActivity() {
 //박준영 개병신 이새기는 왜 한음을 한거임 ㄹㅇ'
     // ✅ 고정된 로그인 정보
