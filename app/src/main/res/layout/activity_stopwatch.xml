@@ -20,19 +20,38 @@
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="시작" />
+        android:text="START" />
 
     <Button
         android:id="@+id/btnPause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="일시정지"
+        android:text="PAUSE"
         android:layout_marginTop="12dp" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="초기화"
+        android:text="RESET"
         android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/btnLap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기록"
+        android:layout_marginTop="12dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/lapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
 </LinearLayout>
